@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    width: 100%;
+    margin: 0;
+}
+.top{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.top p{
+color: yellow;
+text-align: center;
+}
+header{
+    min-height: 20vh;
+    position: relative;
+    background-color: whitesmoke;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-size: 2.5rem;
+    color:blue;
+    text-transform: uppercase;
+    margin: 0.9%;
+    padding: right 20px; 
+    
+}
+.fa-plus{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 0;
+}
+span{
+    color:blue;
+    font-size: 1rem;
+   gap: 0rem;
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    list-style: none;
+}
+nav li{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+nav li a{
+    font: 1em sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: blue;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.icon:hover{
+color: blueviolet;
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram{
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    color: blue;
+}
+.fa-facebook-f:hover{
+    color: blueviolet;
+}
+.fa-twitter:hover{
+    color: blueviolet;
+}
+.fa-instagram:hover{
+color: aqua;
+}
+
+.anti{
+    display: flex;
+    background-color: #ffc400;
+}
+image{
+align-items: center;
+align-self: center;
+width: 20px;
+}
+.antib{
+    display: block;
+}
+.antib h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    color: blue;
+    padding: 20px;
+    margin: 20px 10px 20px 10px;
+}
+.antib p{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    color: blue;
+    padding: 20px;
+    margin: 20px 10px 20px 10px;
+
+}
+.ico{
+    color: blue;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 0.5rem;
+}
+.fa-circle-check, .fa-bacteria{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: blue;
+}
+button{
+    border-radius: 20%;
+    border: 1px solid white;
+    margin: 50px 10px 20px 10px;
+    padding: 20px;
+    background-color: white;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    color: blue;
+}
+aside{
+    right: 20%;
+    bottom: 100%;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+ margin-bottom: 20%;
+   margin-left: 55%;
+    font-size: 60px;
+   margin-bottom: 0;
+   margin-top: 0;
+}
+aside p{
+    margin-bottom: 20%;
+    font-size: 60px;
+   
+}
+@media screen and (max-width:600px){
+    .anti{
+        display:flex;
+        flex-direction:column;
+        
+    }
+}
+.popular{
+    align-items: center;
+}
+.popular p{
+    font-size: 60px;
+    text-align: center;
+    color: blue;
+}
+.popular h1{
+    font-size: 20px;
+    padding: 1rem;
+    margin: 20%;
+}
+.popular i{
+    margin: 20%;
+}
+.fa-pump-medical, .fa-pump-soap, .fa-shield, .fa-virus-slash, .fa-apple, .fa-shield-virus{
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    color: blue;
+}
+.package{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(82, 79, 79);
+    gap: 1rem;
+    margin: 50px 0px 50px 50px;
+}
+.card1{
+background-image: url(images/product2.jpg);
+background-repeat: no-repeat;
+width: 30vw;
+height: 30vh;
+background-position: right;
+background-size:cover;
+}
+.card1:hover{
+    transform: scale(1,2);
+    transition:width 2s, height 2s, transform 2s;
+}
+.card2{
+    background-image: url(images/imag.jpeg);
+    background-repeat: no-repeat;
+    width: 30vw;
+height: 30vh;
+background-position: center;
+background-size:cover;
+}
+.card2:hover{
+    transform: scale(1,2);
+    transition:width 2s, height 2s, transform 2s;
+}
+.card3{
+    background-image: url(images/hand.jpeg);
+    transform: scale(1, 1);
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 30vh;
+    background-position: right;
+    background-size:cover;
+    
+}
+.card3:hover{
+    transform: scale(1,2);
+    transition:width 2s, height 2s, transform 2s;
+}
+.card-title1{
+    font-size: 2rem;
+    color: blue;
+}
+.card-title2{
+    font-size: 2rem;
+    color:white;
+}
+.card-title3{
+    font-size: 2rem;
+    color: blue;
+}
+.card-link .button{
+    border-radius: 50%;
+    border: 1px solid blue;
+    margin: 50px 10px 20px 10px;
+    padding: 5px;
+    background-color: blue;
+    
+}
+.card-link .button a{
+    color: white;
+    text-decoration: none;
+}
+.card-link .button a:hover{
+    color: white;
+}
+.image{
+    height: 200px;
+     width: 200px;
+    
+}
+.image:hover{
+    transform: rotate(20deg);
+    transition:width 2s, height 2s, transform 2s;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+.cardtitle h1{
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: blue;
+}
+.cardbody{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: darkblue;
+}
+.cardsection span{
+    font-size: 1.5rem;
+}
+.about{
+    margin: 10px;
+    color: blue;
+    font-size: 1rem;
+    display: block;
+}
+.handseptic{
+    background-color: lightgray;
+}
+.handseptic h1{
+    font-size: 3rem;
+    color: blue;
+display: block;
+font-weight: 400;}
+.icon{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 0;
+}
+.handsep{
+    background-image: url(images/hand.jpeg);
+    transform: scale(1, 1);
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 50vh;
+    background-position: right;
+    background-size:cover;
+}
+.handsep p{
+    align-self: center;
+    
+    
+}
+.review h1{
+text-align: center;
+color: darkblue;
+}
+.fa-quote-right{
+    color: yellow;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.comment .first, .second{
+    font-size: 1rem;
+    font-weight: 500;
+    color: blue;
+}
+.first{
+    background-color: lightgray;
+    margin-right: 20px;
+}
+.second{
+    background-color: lightgray;
+    margin-left: 10px;
+}
+.fillfom{
+    background-color: rgb(70, 96, 117);
+    margin-bottom: 5%;
+}
+.fillfom h1{
+    color: white;
+    align-self: center;
+    align-items: center;
+    margin: 10%;
+    padding: 10px;
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.details input{
+    border: 1px solid white;
+    border-radius: 48%;
+    padding: 20px;
+    background-color: gray;
+}
+#Message{
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 25%;
+    background-color: gray;
+}
+.button{
+    border-radius: 20%;
+    border: 1px solid yellow;
+    margin: 1px 10px 20px 10px;
+    padding: 10px;
+    background-color:yellow;
+}
+.button:hover{
+    transition: 0.5s;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.a:hover{
+    color: white;
+}
+.simple{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    padding: 20px;
+}
+.simple p{
+    color: yellow;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 0;
+}
+.fa-money-check-dollar, .fa-cart-plus, .fa-apple-whole{
+    color: yellow;
+    margin-right: 5px;
+}
+.follow{
+    background-color: aqua;
+    margin-bottom: 5%;
+   width: 100%;
+}
+.follow h1{
+    align-items: center;
+    margin: 1%;
+    padding: 10px;
+}
+.instaimage{
+    display: flex;
+    justify-content: space-around;
+}
+.imagef{
+    height: 200px;
+     width: 200px;
+     /* margin: 1% 1% 1% 1%; */
+}
+.imagef:hover{
+    transform: scale(1, 2);
+    transition:width 2s, height 2s, transform 2s;
+}
+.footer{
+   display: flex; 
+   justify-content: space-evenly;
+}
+.footer h1{
+    font-size: 20px;
+    color: blue;
+    padding: 20px;
+}
+.footer ul{
+    text-decoration: none;
+}
+.footer li{
+    list-style: none;
+    text-transform: capitalize;
+    font: 1em sans-serif;
+    color: black;
+   padding: 10px;
+}
+.footer .button{
+    border-radius: 20%;
+    border: 1px solid white;
+    margin: 50px 10px 20px 10px;
+    padding: 20px;
+    background-color: white;
+}
+.footer a:hover{
+    color: blue;
+}
