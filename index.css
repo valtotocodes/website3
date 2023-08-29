@@ -5,6 +5,7 @@
 }
 body{
     background-color: whitesmoke;
+    scroll-behavior: smooth;
 }
 .container{
     width: 100%;
@@ -146,7 +147,8 @@ button a{
     text-decoration: none;
 }
 button:hover{
-    color: blue;
+    background-color: yellow;
+    transition: ease 2s;
 }
 aside{
     right: 20%;
@@ -211,8 +213,8 @@ background-position: right;
 background-size:cover;
 }
 .card1:hover{
-    transform: scale(1,2);
-    transition:width 2s, height 2s, transform 2s;
+    transform:scaleX(1.5);
+    transition:width 2s, height 2s, ease 2s;
 }
 .card2{
     background-image: url(images/imag.jpeg);
@@ -223,8 +225,8 @@ background-position: center;
 background-size:cover;
 }
 .card2:hover{
-    transform: scale(1,2);
-    transition:width 2s, height 2s, transform 2s;
+    transform:scaleX(1.5);
+    transition:width 2s, height 2s, ease 2s;
 }
 .card3{
     background-image: url(images/hand.jpeg);
@@ -237,8 +239,8 @@ background-size:cover;
     
 }
 .card3:hover{
-    transform: scale(1,2);
-    transition:width 2s, height 2s, transform 2s;
+    transform:scaleX(1.5);
+    transition:width 2s, height 2s, ease 2s;
 }
 .card-title1{
     font-size: 2rem;
@@ -265,11 +267,13 @@ background-size:cover;
     text-decoration: none;
 }
 .card-link .button a:hover{
-    color: white;
+    transition: ease 2s;
+    background-color: yellowgreen;
 }
 .image{
     height: 200px;
      width: 200px;
+     object-fit: cover;
     
 }
 .image:hover{
@@ -392,7 +396,8 @@ color: darkblue;
     background-color:yellow;
 }
 .button:hover{
-    transition: 0.5s;
+    transition: ease 2s;
+    background-color: white;
 }
 a{
     list-style: none;
@@ -461,13 +466,10 @@ a{
     color: black;
    padding: 10px;
 }
-.footer .button{
-    border-radius: 20%;
-    border: 1px solid white;
-    margin: 50px 10px 20px 10px;
-    padding: 20px;
-    background-color: white;
-}
+
 .footer a:hover{
     color: blue;
+}
+.map{
+ align-self: center;
 }
