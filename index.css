@@ -361,56 +361,54 @@ color: darkblue;
     background-color: lightgray;
     margin-left: 10px;
 }
+
+form{
+    min-width: 300px;
+    min-height: 500px;
+    margin: 0 auto;
+}
 .fillfom{
-    background-color: rgb(70, 96, 117);
-    margin-bottom: 5%;
+    background-color: lightskyblue;
+    margin: 0 0 2em 0;
+    height: 80vh;
 }
 .fillfom h1{
-    color: white;
+    color: blue;
     align-self: center;
     align-items: center;
-    margin: 10%;
+    margin: 1em 0 1em 2em;
     padding: 10px;
 }
-.details{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .details input{
     border: 1px solid white;
-    border-radius: 48%;
+    border-radius: 10%;
     padding: 20px;
-    background-color: gray;
+    background-color: #ffffff;
+    margin: 0 0 2em 4em;
 }
 #Message{
-    margin: 10px;
     border: 1px solid white;
-    border-radius: 25%;
-    background-color: gray;
+    border-radius: 10%;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0 0 0 4em;
 }
-.button{
-    border-radius: 20%;
-    border: 1px solid yellow;
-    margin: 1px 10px 20px 10px;
-    padding: 10px;
-    background-color:yellow;
+.submit{
+    margin: 0 0 4em 4em;
+    padding: 20px;
+    vertical-align: middle;
 }
-.button:hover{
+.submit:hover{
     transition: ease 2s;
-    background-color: white;
-}
-a{
-    list-style: none;
-    text-decoration: none;
-}
-.a:hover{
-    color: white;
+    background-color: red;
 }
 .simple{
     display: flex;
     justify-content: space-evenly;
     background-color: blue;
     padding: 20px;
+    
 }
 .simple p{
     color: yellow;
